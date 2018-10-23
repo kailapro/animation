@@ -14,6 +14,7 @@
 		CE2F0B8821794964007AFF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2F0B8621794964007AFF0F /* LaunchScreen.storyboard */; };
 		CE2F0B9321794964007AFF0F /* animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0B9221794964007AFF0F /* animationTests.swift */; };
 		CE2F0B9E21794964007AFF0F /* animationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0B9D21794964007AFF0F /* animationUITests.swift */; };
+		CE2F0BAC21794B09007AFF0F /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0BAB21794B09007AFF0F /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE2F0B9921794964007AFF0F /* animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2F0B9D21794964007AFF0F /* animationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationUITests.swift; sourceTree = "<group>"; };
 		CE2F0B9F21794964007AFF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2F0BAB21794B09007AFF0F /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				CE2F0B7F21794961007AFF0F /* ViewController.swift */,
 				CE2F0B8121794961007AFF0F /* Main.storyboard */,
 				CE2F0B8421794964007AFF0F /* Assets.xcassets */,
+				CE2F0BAB21794B09007AFF0F /* CanvasViewController.swift */,
 				CE2F0B8621794964007AFF0F /* LaunchScreen.storyboard */,
 				CE2F0B8921794964007AFF0F /* Info.plist */,
 			);
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2F0B8021794961007AFF0F /* ViewController.swift in Sources */,
+				CE2F0BAC21794B09007AFF0F /* CanvasViewController.swift in Sources */,
 				CE2F0B7E21794961007AFF0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
